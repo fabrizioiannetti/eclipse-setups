@@ -38,8 +38,16 @@
           name="org.eclipse.egit.feature.group"/>
       <requirement
           name="org.eclipse.mylyn.wikitext_feature.feature.group"/>
+      <requirement
+          name="com.github.fabeclipse.textedgrep_feature.feature.group"/>
+      <requirement
+          name="com.github.fabrizioiannetti.largefileeditor_feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.github.feature.feature.group"/>
       <repository
           url="http://download.eclipse.org/releases/neon/"/>
+      <repository
+          url="http://fabrizioiannetti.github.io/p2"/>
     </setupTask>
   </version>
   <description>Minimal Eclipse</description>
