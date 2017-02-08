@@ -1,2 +1,21 @@
-# eclipse-setups
-my setups to use with eclipse installer
+= eclipse-setups
+
+These are my setups to use with eclipse installer
+
+== Minimal
+
++fabsetups/fab-default.setup+ is a minimal eclipse install that provides:
+
+* Eclipse features
+** Only simple projects
+** EGit
+** Mylyn
+** Mylyn docs
+** Mylyn github
+* my own:
+** Text Editor Grep
+** Large file editor
+
+I intend to use this as a PIM, by keeping all my notes as asciidoc files in a git repository.
+This way I can version all my notes and also have multiple copies on my computers that I can
+easily synchronise via EGit.
