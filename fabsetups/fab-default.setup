@@ -44,10 +44,14 @@
           name="com.github.fabrizioiannetti.largefileeditor_feature.feature.group"/>
       <requirement
           name="org.eclipse.mylyn.github.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.oomph.ostools.feature.group"/>
       <repository
           url="http://download.eclipse.org/releases/neon/"/>
       <repository
           url="http://fabrizioiannetti.github.io/p2"/>
+      <repository
+          url="http://download.eclipse.org/oomph/updates"/>
     </setupTask>
   </version>
   <description>Minimal Eclipse</description>

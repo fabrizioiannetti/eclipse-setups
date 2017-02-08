@@ -12,6 +12,7 @@ These are my setups to use with eclipse installer
 ** Mylyn
 ** Mylyn docs
 ** Mylyn github
+** Oomph OS Tools (Open shell/file browser)
 * my own:
 ** Text Editor Grep
 ** Large file editor
