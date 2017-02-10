@@ -39,11 +39,13 @@
       <requirement
           name="org.eclipse.mylyn.wikitext_feature.feature.group"/>
       <requirement
+          name="org.eclipse.mylyn.github.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.gerrit.feature.feature.group"/>
+      <requirement
           name="com.github.fabeclipse.textedgrep_feature.feature.group"/>
       <requirement
           name="com.github.fabrizioiannetti.largefileeditor_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.github.feature.feature.group"/>
       <requirement
           name="org.eclipse.oomph.ostools.feature.group"/>
       <repository
@@ -53,6 +55,40 @@
       <repository
           url="http://download.eclipse.org/oomph/updates"/>
     </setupTask>
+  </version>
+  <version name="latest"
+      label="Latest"
+      requiredJavaVersion="1.8">
+    <setupTask
+        xsi:type="setup.p2:P2Task">
+      <requirement
+          name="org.eclipse.platform.feature.group"/>
+      <requirement
+          name="org.eclipse.rcp.feature.group"/>
+      <requirement
+          name="org.eclipse.egit.feature.group"/>
+      <requirement
+          name="org.eclipse.platform.ide"/>
+      <requirement
+          name="org.eclipse.mylyn.wikitext_feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.github.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.gerrit.feature.feature.group"/>
+      <requirement
+          name="com.github.fabeclipse.textedgrep_feature.feature.group"/>
+      <requirement
+          name="com.github.fabrizioiannetti.largefileeditor_feature.feature.group"/>
+      <requirement
+          name="org.eclipse.oomph.ostools.feature.group"/>
+      <repository
+          url="http://download.eclipse.org/releases/oxygen"/>
+      <repository
+          url="http://fabrizioiannetti.github.io/p2"/>
+      <repository
+          url="http://download.eclipse.org/oomph/updates"/>
+    </setupTask>
+    <description></description>
   </version>
   <description>Minimal Eclipse</description>
 </setup:Product>
