@@ -12,10 +12,15 @@ These are my setups to use with eclipse installer
 ** Mylyn
 ** Mylyn docs
 ** Mylyn github
+** Mylyn gerrit
 ** Oomph OS Tools (Open shell/file browser)
 * my own:
 ** Text Editor Grep
 ** Large file editor
+
+Provided in two versions:
+* Neon
+* Latest (Oxygen)
 
 I intend to use this as a PIM, by keeping all my notes as asciidoc files in a git repository.
 This way I can version all my notes and also have multiple copies on my computers that I can
