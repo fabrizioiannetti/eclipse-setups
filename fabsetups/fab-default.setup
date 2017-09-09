@@ -56,8 +56,8 @@
           url="http://download.eclipse.org/oomph/updates"/>
     </setupTask>
   </version>
-  <version name="latest"
-      label="Latest"
+  <version name="oxygen"
+      label="Oxygen"
       requiredJavaVersion="1.8">
     <setupTask
         xsi:type="setup.p2:P2Task">
