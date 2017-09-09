@@ -19,6 +19,7 @@ These are my setups to use with eclipse installer
 ** Large file editor
 
 Provided in two versions:
+
 * Neon
 * Latest (Oxygen)
 
